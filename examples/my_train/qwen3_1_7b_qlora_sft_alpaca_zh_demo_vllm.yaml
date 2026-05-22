@@ -1,0 +1,15 @@
+model_name_or_path: /home/mona/tutu_poj/graduate_paper/gram_modeldata/Qwen3-1.7B
+adapter_name_or_path: saves/qwen3-1.7b/qlora/sft-alpaca-zh-demo
+template: qwen3
+enable_thinking: false
+infer_backend: vllm
+trust_remote_code: true
+
+vllm_maxlen: 2048
+vllm_gpu_util: 0.75
+vllm_enforce_eager: true
+vllm_config: '{"max_num_seqs": 1}'
+
+max_new_tokens: 256
+temperature: 0.7
+top_p: 0.9

@@ -8,6 +8,14 @@
   "alpaca_zh_demo": {
     "file_name": "alpaca_zh_demo.json"
   },
+  "my_sft_zh_cleaned_demo": {
+    "file_name": "my_sft_zh_cleaned_demo.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "glaive_toolcall_en_demo": {
     "file_name": "glaive_toolcall_en_demo.json",
     "formatting": "sharegpt",
