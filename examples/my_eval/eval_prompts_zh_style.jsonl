@@ -1,0 +1,10 @@
+{"id":"eval_001","category":"strict_grammar","instruction":"请对下面句子进行语法纠错。只输出修改后的句子，不要解释。","input":"该方法可以有效的降低模型错误率。","reference":"该方法可以有效地降低模型错误率。","must_contain":["有效地"]}
+{"id":"eval_002","category":"strict_style","instruction":"请把口语化表达改为论文风格。只输出修改后的句子，不要解释。","input":"这个模型在小数据上表现还不错，但有时候会乱说。","reference":"该模型在小规模数据上表现较好，但在部分情况下可能生成不准确的结果。","must_contain":["小规模数据"]}
+{"id":"eval_003","category":"strict_rewrite","instruction":"请将下面的句子改写成更规范的学术表达。只输出修改后的句子，不要解释。","input":"这个方案比baseline跑得更快也更准。","reference":"与基线方法相比，该方案在运行效率和准确性方面均有所提升。","must_contain":["基线方法"]}
+{"id":"eval_004","category":"strict_summary","instruction":"请把下面句子改成论文摘要中的表达。只输出修改后的句子，不要解释。","input":"这篇文章主要想解决模型不太懂中文语法的问题。","reference":"本文主要针对模型中文语法理解能力不足的问题展开研究。","must_contain":["中文语法"]}
+{"id":"eval_005","category":"strict_method","instruction":"请润色下面这句话，使其适合论文方法部分。只输出修改后的句子，不要解释。","input":"训练的时候我们把学习率调小了一点。","reference":"训练过程中，本文适当降低了学习率。","must_contain":["学习率"]}
+{"id":"eval_006","category":"loose_grammar","instruction":"请对下面句子进行语法纠错。","input":"为了提升模型泛化能力，本文采用了数据增强策略。","reference":"为了提升模型的泛化能力，本文采用了数据增强策略。","must_contain":["泛化能力"]}
+{"id":"eval_007","category":"loose_style","instruction":"请把口语化表达改为论文风格。","input":"这个指标高说明模型预测比较靠谱。","reference":"该指标较高表明模型预测结果具有较高可靠性。","must_contain":["可靠性"]}
+{"id":"eval_008","category":"loose_rewrite","instruction":"请将下面的句子改写成更规范的学术表达。","input":"通过很多实验，我们发现参数设置很重要。","reference":"通过多次实验验证，结果表明参数设置对模型性能具有重要影响。","must_contain":["参数设置"]}
+{"id":"eval_009","category":"loose_method","instruction":"请润色下面这句话，使其适合论文方法部分。","input":"我们先把重复的数据删掉，然后再开始训练模型。","reference":"首先删除重复样本，随后使用处理后的数据进行模型训练。","must_contain":["重复样本"]}
+{"id":"eval_010","category":"loose_result","instruction":"请改写为更客观的学术表达。","input":"消融实验可以看出这个模块有点作用。","reference":"消融实验结果表明，该模块对模型性能具有一定贡献。","must_contain":["消融实验"]}

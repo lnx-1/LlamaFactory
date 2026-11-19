@@ -16,6 +16,16 @@
       "response": "output"
     }
   },
+  "my_dpo_zh_style_demo": {
+    "file_name": "my_dpo_zh_style_demo.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
   "glaive_toolcall_en_demo": {
     "file_name": "glaive_toolcall_en_demo.json",
     "formatting": "sharegpt",
